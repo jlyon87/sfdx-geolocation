@@ -8,5 +8,7 @@
 
   <aura:attribute name="map" type="Object" />
 
+  <aura:handler event="c:AccountsLoaded" action="{!c.accountsLoaded}" />
+
   <div id="map"></div>
 </aura:component>
